@@ -7,10 +7,10 @@ const GALLERY_IMAGES = [
   { src: "/images/gallery/gallery-room-1.jpg", alt: "Furnished sharing room with twin beds" },
   { src: "/images/gallery/gallery-common-area.jpg", alt: "Common dining and seating area" },
   { src: "/images/gallery/gallery-room-2.jpg", alt: "Bedroom with study desk and chair", tall: true },
-  { src: "/images/gallery/gallery-kitchen.svg", alt: "Kitchen and dining space" },
+  { src: "/images/gallery/gallery-common-area.jpg", alt: "Dining and common seating area" },
   { src: "/images/gallery/gallery-entrance.jpg", alt: "Building entrance and parking area" },
-  { src: "/images/gallery/gallery-security.svg", alt: "CCTV and security coverage" },
-  { src: "/images/gallery/gallery-facade.svg", alt: "Building facade" },
+  { src: "/images/gallery/gallery-entrance.jpg", alt: "Building entrance and security view" },
+  { src: "/images/hero/hero-exterior.jpg", alt: "Building facade" },
 ];
 
 export default function Gallery() {

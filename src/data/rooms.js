@@ -28,8 +28,8 @@ export const rooms = [
       "A well-kept boys' PG in the heart of Sector 2, close to markets, transport and colleges. Bright rooms, home-style food and a calm, secure environment.",
     amenities: ["Wi-Fi", "Food Included", "Power Backup", "CCTV Security", "Furnished"],
     images: [
-      "/images/rooms/room-sector2.svg",
-      "/images/rooms/room-sector2.svg",
+      "/images/gallery/gallery-room-1.jpg",
+      "/images/gallery/gallery-room-2.jpg",
     ],
     tags: ["Boys", "Popular"],
   },
@@ -47,8 +47,8 @@ export const rooms = [
       "Affordable and spacious sharing rooms in Ballabgarh, a short walk from the main market and bus stand. Great for students on a budget.",
     amenities: ["Wi-Fi", "Air Cooler", "Common Area", "Housekeeping", "Parking"],
     images: [
-      "/images/rooms/room-ballabgarh.svg",
-      "/images/rooms/room-ballabgarh.svg",
+      "/images/gallery/gallery-common-area.jpg",
+      "/images/gallery/gallery-entrance.jpg",
     ],
     tags: ["Boys", "Budget-Friendly"],
   },
@@ -66,8 +66,8 @@ export const rooms = [
       "Private single rooms in a quiet residential pocket of Sector 11 — ideal for working professionals who value privacy and easy commute.",
     amenities: ["Wi-Fi", "Geyser", "Cupboard / Locker", "24-Hour Water", "CCTV Security"],
     images: [
-      "/images/rooms/room-sector11.svg",
-      "/images/rooms/room-sector11.svg",
+      "/images/hero/hero-exterior.jpg",
+      "/images/gallery/gallery-room-1.jpg",
     ],
     tags: ["Co-ed", "Private Room"],
   },
@@ -85,8 +85,8 @@ export const rooms = [
       "Practical, no-fuss accommodation close to the industrial belt — a convenient stay for working professionals with early shifts.",
     amenities: ["Wi-Fi", "Bed & Mattress", "Power Backup", "Kitchen Facilities", "Parking"],
     images: [
-      "/images/rooms/room-sarurpur.svg",
-      "/images/rooms/room-sarurpur.svg",
+      "/images/gallery/gallery-room-2.jpg",
+      "/images/gallery/gallery-facade.svg",
     ],
     tags: ["Co-ed", "Near Industrial Area"],
   },

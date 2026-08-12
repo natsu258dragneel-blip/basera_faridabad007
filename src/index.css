@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cream-200 text-ink-800 font-sans antialiased transition-colors duration-300;
+  }
+
+  .dark body {
+    @apply bg-ink-900 text-cream-200;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display text-ink-900 dark:text-cream-100;
+  }
+
+  ::selection {
+    @apply bg-emerald-500/25 text-ink-900;
+  }
+
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible,
+  [tabindex]:focus-visible {
+    @apply outline-none ring-2 ring-emerald-500 ring-offset-2 ring-offset-cream-200 dark:ring-offset-ink-900;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .section-pad {
+    @apply px-5 sm:px-8 lg:px-12 xl:px-20;
+  }
+
+  .container-max {
+    @apply max-w-[1400px] mx-auto;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs sm:text-sm font-semibold tracking-[0.18em] uppercase text-emerald-600 dark:text-emerald-glow;
+  }
+
+  .section-heading {
+    @apply font-display text-3xl sm:text-4xl lg:text-[2.75rem] leading-[1.1] text-ink-900 dark:text-cream-100;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full font-sans font-semibold transition-all duration-300 ease-out select-none;
+  }
+
+  .btn-primary {
+    @apply btn bg-emerald-500 text-cream-100 px-6 py-3.5 shadow-glow hover:bg-emerald-600 hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+  .btn-secondary {
+    @apply btn bg-transparent border-2 border-ink-900/[0.15] dark:border-cream-200/[0.20] text-ink-900 dark:text-cream-100 px-6 py-3.5 hover:border-emerald-500 hover:text-emerald-600 dark:hover:text-emerald-glow hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+  .btn-whatsapp {
+    @apply btn bg-[#25D366] text-white px-6 py-3.5 shadow-lift hover:bg-[#1FB959] hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+  .btn-ghost {
+    @apply btn bg-ink-900/5 dark:bg-cream-200/10 text-ink-800 dark:text-cream-200 px-5 py-2.5 hover:bg-ink-900/10 dark:hover:bg-cream-200/15;
+  }
+
+  .card-surface {
+    @apply bg-white dark:bg-ink-800 border border-ink-900/[0.06] dark:border-cream-200/[0.08] rounded-3xl shadow-soft;
+  }
+
+  .input-field {
+    @apply w-full rounded-2xl border border-ink-900/[0.12] dark:border-cream-200/[0.15] bg-white dark:bg-ink-700/60 px-4 py-3 text-[15px] text-ink-900 dark:text-cream-100 placeholder:text-ink-400 dark:placeholder:text-cream-400/50 outline-none transition-colors duration-200 focus:border-emerald-500;
+  }
+
+  .field-label {
+    @apply block text-sm font-semibold text-ink-700 dark:text-cream-300 mb-1.5;
+  }
+
+  /* Signature "stay tag" badge — a die-cut luggage-tag shape used for price / status */
+  .stay-tag {
+    @apply relative inline-flex items-center gap-1.5 rounded-lg bg-ink-900/90 dark:bg-cream-100 text-cream-100 dark:text-ink-900 pl-4 pr-3 py-1.5 text-sm font-semibold shadow-lift;
+    clip-path: polygon(14px 0, 100% 0, 100% 100%, 14px 100%, 0 50%);
+  }
+
+  .stay-tag::before {
+    content: "";
+    @apply absolute left-[6px] top-1/2 -translate-y-1/2 w-[5px] h-[5px] rounded-full bg-cream-100/70 dark:bg-ink-900/50;
+  }
+
+  .reveal {
+    opacity: 0;
+  }
+
+  .reveal.is-visible {
+    @apply animate-fade-up;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .bg-noise {
+    background-image: theme('backgroundImage.grain');
+  }
+
+  .mask-fade-b {
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  }
+
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

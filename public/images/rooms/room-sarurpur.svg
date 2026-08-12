@@ -1,0 +1,22 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="PG · Sarurpur">
+  <defs>
+    <linearGradient id="gmfgz49" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C79A56"/>
+      <stop offset="1" stop-color="#7A5A2A"/>
+    </linearGradient>
+    <pattern id="pmfgz49" width="34" height="34" patternUnits="userSpaceOnUse" patternTransform="rotate(20)">
+      <line x1="0" y1="0" x2="0" y2="34" stroke="#F7F3EA" stroke-opacity="0.05" stroke-width="34"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="600" fill="url(#gmfgz49)"/>
+  <rect width="800" height="600" fill="url(#pmfgz49)"/>
+  <g transform="translate(340, 200)" fill="none" stroke="#F7F3EA" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M6 84V44a8 8 0 0 1 8-8h84a8 8 0 0 1 8 8v40" />
+        <path d="M6 84h100" />
+        <path d="M6 68h100" />
+        <circle cx="26" cy="52" r="7" />
+        <path d="M40 52h50v16H40z" />
+  </g>
+  <text x="400" y="378" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#F7F3EA" fill-opacity="0.92" letter-spacing="0.3">PG · Sarurpur</text>
+  <text x="400" y="404" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="13" font-weight="500" fill="#F7F3EA" fill-opacity="0.55" letter-spacing="2">PHOTO COMING SOON</text>
+</svg>

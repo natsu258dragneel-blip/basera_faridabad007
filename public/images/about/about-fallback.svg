@@ -1,0 +1,21 @@
+<svg width="900" height="1100" viewBox="0 0 900 1100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Our PG, Faridabad">
+  <defs>
+    <linearGradient id="ga044jw" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E6B57"/>
+      <stop offset="1" stop-color="#123B32"/>
+    </linearGradient>
+    <pattern id="pa044jw" width="34" height="34" patternUnits="userSpaceOnUse" patternTransform="rotate(20)">
+      <line x1="0" y1="0" x2="0" y2="34" stroke="#F7F3EA" stroke-opacity="0.05" stroke-width="34"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="1100" fill="url(#ga044jw)"/>
+  <rect width="900" height="1100" fill="url(#pa044jw)"/>
+  <g transform="translate(390, 450)" fill="none" stroke="#F7F3EA" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="18" y="10" width="76" height="98" rx="2" />
+        <path d="M18 108h76" />
+        <path d="M34 26h10M50 26h10M66 26h10M34 42h10M50 42h10M66 42h10M34 58h10M50 58h10M66 58h10M34 74h10M50 74h10M66 74h10" />
+        <rect x="48" y="90" width="16" height="18" />
+  </g>
+  <text x="450" y="628" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#F7F3EA" fill-opacity="0.92" letter-spacing="0.3">Our PG, Faridabad</text>
+  <text x="450" y="654" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="13" font-weight="500" fill="#F7F3EA" fill-opacity="0.55" letter-spacing="2">PHOTO COMING SOON</text>
+</svg>

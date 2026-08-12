@@ -1,0 +1,19 @@
+<svg width="700" height="560" viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ballabgarh">
+  <defs>
+    <linearGradient id="g9t1027" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2E4A3E"/>
+      <stop offset="1" stop-color="#16241D"/>
+    </linearGradient>
+    <pattern id="p9t1027" width="34" height="34" patternUnits="userSpaceOnUse" patternTransform="rotate(20)">
+      <line x1="0" y1="0" x2="0" y2="34" stroke="#F7F3EA" stroke-opacity="0.05" stroke-width="34"/>
+    </pattern>
+  </defs>
+  <rect width="700" height="560" fill="url(#g9t1027)"/>
+  <rect width="700" height="560" fill="url(#p9t1027)"/>
+  <g transform="translate(290, 180)" fill="none" stroke="#F7F3EA" stroke-opacity="0.35" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M56 108s34-38 34-63a34 34 0 1 0-68 0c0 25 34 63 34 63z" />
+        <circle cx="56" cy="45" r="13" />
+  </g>
+  <text x="350" y="358" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="22" font-weight="700" fill="#F7F3EA" fill-opacity="0.92" letter-spacing="0.3">Ballabgarh</text>
+  <text x="350" y="384" text-anchor="middle" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="13" font-weight="500" fill="#F7F3EA" fill-opacity="0.55" letter-spacing="2">FARIDABAD</text>
+</svg>
